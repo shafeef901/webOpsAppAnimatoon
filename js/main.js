@@ -8,7 +8,4 @@
      $('.p3').on('click', function(){
      	$('.planet3').toggleClass('paused');
      })
-     $('.m').on('click', function(){
-     	$('.moon').toggleClass('paused');
-     })
    });

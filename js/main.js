@@ -1,11 +1,7 @@
- $(function(){
-     $('.p1').on('click', function(){
-     	$('.planet1').toggleClass('paused');
-     })
-     $('.p2').on('click', function(){
-     	$('.planet2').toggleClass('paused');
-     })
-     $('.p3').on('click', function(){
-     	$('.planet3').toggleClass('paused');
-     })
-   });
+function PauseFunction(planet) {
+     document.getElementById(planet).style.animationPlayState = "paused";
+}
+
+function PlayFunction(planet) {
+     document.getElementById(planet).style.animationPlayState = "running";
+}
